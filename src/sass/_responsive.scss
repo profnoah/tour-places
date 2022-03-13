@@ -6,7 +6,8 @@
       font-size: 2rem;
       &:last-child {
         &:hover {
-          border-bottom: 3px solid;
+          //  border-bottom: 3px solid;
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.205);
         }
       }
     }
@@ -35,6 +36,11 @@
   .navbar {
     a {
       font-size: 3rem;
+      &:last-child {
+        &:hover {
+          box-shadow: none;
+        }
+      }
     }
   }
 }
