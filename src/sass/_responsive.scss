@@ -2,24 +2,26 @@
   .navbar {
     flex-direction: column;
     text-align: center;
+
     a {
+      padding: 0.4rem;
       font-size: 2rem;
       &:last-child {
         &:hover {
-          //  border-bottom: 3px solid;
-          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.205);
+          box-shadow: 2px 2px 2px 1px $shadowColor;
         }
       }
     }
   }
-  .header-title {
-    h1 {
-      font-size: 0.3rem;
-    }
+  p {
+    font-size: 1rem;
   }
 }
 
 @include media-sm {
+  p {
+    font-size: 1.2rem;
+  }
 }
 
 @include media-md {
@@ -27,7 +29,12 @@
     flex-direction: row;
     gap: 1.5rem;
     a {
-      font-size: 2rem;
+      padding: 1rem;
+      &:last-child {
+        &:hover {
+          box-shadow: none;
+        }
+      }
     }
   }
 }
@@ -36,11 +43,6 @@
   .navbar {
     a {
       font-size: 3rem;
-      &:last-child {
-        &:hover {
-          box-shadow: none;
-        }
-      }
     }
   }
 }
