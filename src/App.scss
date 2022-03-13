@@ -1,0 +1,30 @@
+// ?=========================================================
+// ?                   APP CSS
+// ?=========================================================
+@import "./sass/reset", "./sass/variables";
+
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+
+.App {
+  background-color: $backgroundColor;
+}
+
+body {
+  font-family: "Amatic SC", cursive;
+}
+h1 {
+  font-size: 3rem;
+  color: black;
+}
+h2 {
+  font-size: 2rem;
+  color: white;
+}
+p {
+  font-family: "Hubballi", cursive;
+  font-size: 1.2rem;
+}
+a {
+  font-size: 1.7rem;
+}
