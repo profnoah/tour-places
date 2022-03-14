@@ -1,15 +1,14 @@
 import "./App.scss";
-
-import Navbar from "./components/navbar/Navbar";
+import Cards from "./components/card/Cards";
 import Header from "./components/header/Header";
-import Card from "./components/card/Card";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Header />
-      <Card />
+      <Cards />
     </div>
   );
 }
